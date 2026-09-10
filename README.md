@@ -5,9 +5,9 @@
 
 <br/><br/>
 
-<!-- 🦾 Cyber Avatar -->
+<!-- 🌌 Cosmic Trimurti Hero Backdrop -->
 <a href="https://github.com/Akhil-Dev-Git">
-  <img src="https://raw.githubusercontent.com/Akhil-Dev-Git/Akhil-Dev-Git/main/assets/avatar.jpg" width="280" height="280" style="border-radius: 50%; border: 3px solid #ff7a00; box-shadow: 0 0 35px rgba(255, 122, 0, 0.65);" alt="Akhil Dev Avatar" />
+  <img src="https://raw.githubusercontent.com/Akhil-Dev-Git/Akhil-Dev-Git/main/assets/trimurti_bg.jpg" width="100%" style="border-radius: 16px; border: 1px solid rgba(255, 122, 0, 0.2); box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);" alt="Cosmic Trimurti - Creator, Preserver & Transformer" />
 </a>
 
 <br/><br/>
