@@ -2,13 +2,13 @@
 
 <!-- 📸 Akhil Dev Portrait with Positive Power Katana -->
 <a href="https://github.com/Akhil-Dev-Git">
-  <img src="./assets/akhil_katana_standing.png" width="380" alt="Akhil Dev with Katana" />
+  <img src="./assets/akhil_katana_standing.png" width="100%" alt="Akhil Dev with Katana" />
 </a>
 
 <br/><br/>
 
 <!-- 🚀 Master Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:060913,50:0a0f1d,100:060913&height=120&section=header&text=AKHIL%20DEV&fontSize=38&fontColor=ff7a00&fontAlignY=45&desc=ME&descAlignY=70&descSize=16&descAlign=50&stroke=ff7a00&strokeWidth=1" width="100%" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:161b22,100:0d1117&height=120&section=header&text=AKHIL%20DEV&fontSize=38&fontColor=ff7a00&fontAlignY=45&desc=AI%20PRODUCT%20ARCHITECT%20%E2%80%A2%20NEURAL%20SYSTEMS&descAlignY=70&descSize=16&descAlign=50&stroke=ff7a00&strokeWidth=1" width="100%" alt="Header" />
 <br/>
 
 <!-- ⚡ Continuous Keplerian Typing Headline -->
@@ -37,7 +37,7 @@
 [![Telemetry](https://komarev.com/ghpvc/?username=Akhil-Dev-Git&style=for-the-badge&color=FF7A00)](https://github.com/Akhil-Dev-Git)
 
 <br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,20:ff7a00,50:ffa500,80:ff7a00,100:0d1117&height=3&section=header" width="100%" alt="Divider" />
 
 </div>
 
@@ -101,7 +101,7 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff7a00,50:181818,100:060913&height=120&section=footer" width="100%" alt="Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff7a00,50:161b22,100:0d1117&height=120&section=footer" width="100%" alt="Footer Wave" />
   <p>
     <sub>🚀 Engineered with mathematical precision by <b>Akhil Dev</b>. AI Systems Architect.</sub>
   </p>

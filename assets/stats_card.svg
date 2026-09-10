@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="100%">
   <defs>
     <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1120" />
-      <stop offset="50%" stop-color="#070c18" />
-      <stop offset="100%" stop-color="#040711" />
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="50%" stop-color="#111620" />
+      <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
 
     <linearGradient id="accent-bar" x1="0%" y1="0%" x2="100%" y2="0%">
