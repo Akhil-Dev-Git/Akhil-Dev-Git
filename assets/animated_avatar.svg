@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="25%" stop-color="#FFD166" />
+      <stop offset="60%" stop-color="#FF7A00" />
+      <stop offset="85%" stop-color="#FF3300" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#060913" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="halo-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF9E00" stop-opacity="0.6" />
+      <stop offset="60%" stop-color="#00F0FF" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#060913" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="gold-neon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="50%" stop-color="#FFB300" />
+      <stop offset="100%" stop-color="#FF7A00" />
+    </linearGradient>
+
+    <linearGradient id="cyan-neon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A5F3FC" />
+      <stop offset="100%" stop-color="#00F0FF" />
+    </linearGradient>
+
+    <filter id="bloom" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="core-bloom" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes spin-cw {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes spin-ccw {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes breathe {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.08); opacity: 1; }
+    }
+    @keyframes pulse-energy {
+      0%, 100% { stroke-dashoffset: 0; }
+      50% { stroke-dashoffset: 60; }
+    }
+    @keyframes particle-twinkle {
+      0%, 100% { opacity: 0.2; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.4); }
+    }
+
+    .ring-outer {
+      transform-origin: 200px 200px;
+      animation: spin-cw 30s linear infinite;
+    }
+    .ring-mid {
+      transform-origin: 200px 200px;
+      animation: spin-ccw 20s linear infinite;
+    }
+    .ring-inner {
+      transform-origin: 200px 200px;
+      animation: spin-cw 12s linear infinite;
+    }
+    .center-orb {
+      transform-origin: 200px 200px;
+      animation: breathe 3.5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Dark Cosmic Ambient Base -->
+  <circle cx="200" cy="200" r="190" fill="#060913" stroke="rgba(255, 122, 0, 0.25)" stroke-width="1.5" />
+  <circle cx="200" cy="200" r="160" fill="url(#halo-glow)" filter="url(#core-bloom)" />
+
+  <!-- Outer Ring: Gold Astrolabe Geometry -->
+  <g class="ring-outer">
+    <circle cx="200" cy="200" r="170" fill="none" stroke="url(#gold-neon)" stroke-width="1.5" stroke-dasharray="8 12" opacity="0.6" filter="url(#bloom)" />
+    <circle cx="200" cy="30" r="4" fill="#FFD166" filter="url(#bloom)" />
+    <circle cx="370" cy="200" r="4" fill="#FF7A00" filter="url(#bloom)" />
+    <circle cx="200" cy="370" r="4" fill="#FFD166" filter="url(#bloom)" />
+    <circle cx="30" cy="200" r="4" fill="#FF7A00" filter="url(#bloom)" />
+    <!-- 8 Triangular Star Nodes -->
+    <polygon points="200,38 205,48 195,48" fill="#FFD166" />
+    <polygon points="362,200 352,205 352,195" fill="#FF7A00" />
+    <polygon points="200,362 195,352 205,352" fill="#FFD166" />
+    <polygon points="38,200 48,195 48,205" fill="#FF7A00" />
+  </g>
+
+  <!-- Mid Ring: Cyan Orbital Laser Contours -->
+  <g class="ring-mid">
+    <circle cx="200" cy="200" r="135" fill="none" stroke="url(#cyan-neon)" stroke-width="1.5" stroke-dasharray="14 8 4 8" opacity="0.75" filter="url(#bloom)" />
+    <!-- Orbiting Energy Dots -->
+    <circle cx="200" cy="65" r="3.5" fill="#00F0FF" filter="url(#bloom)" />
+    <circle cx="335" cy="200" r="3" fill="#A5F3FC" filter="url(#bloom)" />
+    <circle cx="200" cy="335" r="3.5" fill="#00F0FF" filter="url(#bloom)" />
+    <circle cx="65" cy="200" r="3" fill="#A5F3FC" filter="url(#bloom)" />
+    <!-- Hexagonal Sacred Geometry Wireframe -->
+    <polygon points="200,75 308,138 308,262 200,325 92,262 92,138" fill="none" stroke="rgba(0, 240, 255, 0.3)" stroke-width="1" />
+  </g>
+
+  <!-- Inner Ring: Fiery Orange Rotating Sun Rays -->
+  <g class="ring-inner">
+    <circle cx="200" cy="200" r="95" fill="none" stroke="#FF7A00" stroke-width="2" stroke-dasharray="6 6" opacity="0.85" filter="url(#bloom)" />
+    <!-- 12 Radiating Ticks -->
+    <g stroke="#FFA347" stroke-width="1.5" opacity="0.8">
+      <line x1="200" y1="108" x2="200" y2="100" />
+      <line x1="200" y1="292" x2="200" y2="300" />
+      <line x1="108" y1="200" x2="100" y2="200" />
+      <line x1="292" y1="200" x2="300" y2="200" />
+      <line x1="135" y1="135" x2="129" y2="129" />
+      <line x1="265" y1="265" x2="271" y2="271" />
+      <line x1="135" y1="265" x2="129" y2="271" />
+      <line x1="265" y1="135" x2="271" y2="129" />
+    </g>
+  </g>
+
+  <!-- Central Pulsing Cosmic God-Creator Core -->
+  <g class="center-orb">
+    <!-- Radiant Solar Core -->
+    <circle cx="200" cy="200" r="68" fill="url(#core-glow)" filter="url(#core-bloom)" />
+    <circle cx="200" cy="200" r="48" fill="#0A0A0E" stroke="#FF7A00" stroke-width="2.5" filter="url(#bloom)" />
+
+    <!-- Sacred Triune Cosmic Emblem (Creator • Preserver • Transformer) -->
+    <!-- Brahma Lotus Petals & Shiva Crescent & Vishnu Wheel Center -->
+    <g fill="none" stroke="url(#gold-neon)" stroke-width="1.8" stroke-linecap="round">
+      <!-- Sacred Crescent -->
+      <path d="M 188 178 A 16 16 0 0 0 212 178 A 12 12 0 0 1 188 178 Z" fill="#FFE082" stroke="none" />
+      <!-- Central Third Eye / Star of Consciousness -->
+      <circle cx="200" cy="190" r="3.5" fill="#00F0FF" stroke="#FFFFFF" stroke-width="1" />
+      <!-- Radiating Divine Energy Lines -->
+      <path d="M 200 170 L 200 162" stroke="#FFD166" stroke-width="2" />
+      <path d="M 200 210 L 200 218" stroke="#FF7A00" stroke-width="2" />
+      <path d="M 180 200 L 172 200" stroke="#FF7A00" stroke-width="2" />
+      <path d="M 220 200 L 228 200" stroke="#FFD166" stroke-width="2" />
+      <!-- Lotus Arch -->
+      <path d="M 184 212 Q 200 226 216 212" stroke="#FFB300" stroke-width="1.8" />
+    </g>
+
+    <!-- Typography -->
+    <text x="200" y="240" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-size="9" font-weight="900" fill="#FF9E00" letter-spacing="1.5">AKHIL DEV</text>
+    <text x="200" y="252" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-size="7" font-weight="700" fill="#FFFFFF" letter-spacing="1">AI ARCHITECT</text>
+  </g>
+</svg>
