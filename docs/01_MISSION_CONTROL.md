@@ -1,4 +1,4 @@
-# 📜 Page 01: Mission Control & The Samurai Codex
+# 📜 Page 01: Mission Control & The Engineering Codex
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:060913,50:0a0f1d,100:ff7a00&height=150&section=header&text=01%20%7C%20MISSION%20CONTROL&fontSize=36&fontColor=ffffff&fontAlignY=40&desc=PHILOSOPHY%20%E2%80%A2%20TIMELINE%20%E2%80%A2%20THE%20AI%20ENGINEER%20CODEX&descAlignY=65&descSize=14&descAlign=50" width="100%" />
@@ -13,11 +13,11 @@
 
 ---
 
-## ⚔️ The AI Samurai Codex
+## ⚡ The AI Engineer's Codex
 
-> *"To engineer software is not merely to write syntax; it is the discipline of forging intelligent instruments that serve humanity with absolute precision, honor, and resilience."*
+> *"To engineer software is not merely to write syntax; it is the discipline of forging intelligent instruments that solve meaningful real-world problems with absolute precision, reliability, and resilience."*
 
-In ancient traditions, the katana was forged through repeated folding of high-carbon steel until zero impurities remained. In modern digital craftsmanship, complex AI models, agent swarms, and distributed full-stack systems are forged through rigorous testing, clean mathematical foundations, and uncompromising aesthetic execution.
+In modern digital craftsmanship, complex AI models, agent swarms, and distributed full-stack systems are forged through rigorous testing, clean mathematical foundations, and uncompromising aesthetic execution.
 
 ### The Four Tenets of My Engineering Discipline
 
@@ -26,7 +26,7 @@ In ancient traditions, the katana was forged through repeated folding of high-ca
 2. **Speed with Form (速)**
    - Ship fast without architectural rot. Modular design patterns, decoupled microservices, and strict type safety ensure agility never compromises long-term system stability.
 3. **Continuous Mastery (修)**
-   - From low-level memory allocation in C/C++ to autonomous orchestration in LangGraph and local fine-tuning on Ollama, the warrior engineer commands the full vertical stack.
+   - From low-level memory allocation in C/C++ to autonomous orchestration in LangGraph and local fine-tuning on Ollama, the modern AI engineer commands the full vertical stack.
 4. **Artistic Craftsmanship (美)**
    - User interfaces and developer experiences should evoke awe. Functionality without elegance is incomplete engineering.
 

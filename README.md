@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- ⚔️ Master Cyber Samurai Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:060913,50:0a0f1d,100:060913&height=120&section=header&text=%E2%9A%94%EF%B8%8F%20AKHIL%20DEV%20%7C%20THE%20AI%20SAMURAI&fontSize=34&fontColor=ff7a00&fontAlignY=45&desc=%22CODE%20WITH%20HONOR%20%E2%80%A2%20BUILD%20WITH%20PRECISION%22&descAlignY=70&descSize=14&descAlign=50&stroke=ff7a00&strokeWidth=1" width="100%" alt="Samurai Header" />
+<!-- 🚀 Master Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:060913,50:0a0f1d,100:060913&height=120&section=header&text=AKHIL%20DEV%20%7C%20AI%20PRODUCT%20ARCHITECT&fontSize=32&fontColor=ff7a00&fontAlignY=45&desc=%22I%20BUILD%20WHAT%20OTHERS%20IMAGINE%22&descAlignY=70&descSize=14&descAlign=50&stroke=ff7a00&strokeWidth=1" width="100%" alt="Header" />
 
 <br/><br/>
 
-<!-- 🦾 Cyber Samurai Warrior Avatar -->
+<!-- 🦾 Cyber Avatar -->
 <a href="https://github.com/Akhil-Dev-Git">
-  <img src="https://raw.githubusercontent.com/Akhil-Dev-Git/Akhil-Dev-Git/main/assets/samurai_avatar.jpg" width="280" height="280" style="border-radius: 50%; border: 3px solid #ff7a00; box-shadow: 0 0 35px rgba(255, 122, 0, 0.65);" alt="Akhil Dev - AI Samurai Avatar" />
+  <img src="https://raw.githubusercontent.com/Akhil-Dev-Git/Akhil-Dev-Git/main/assets/avatar.jpg" width="280" height="280" style="border-radius: 50%; border: 3px solid #ff7a00; box-shadow: 0 0 35px rgba(255, 122, 0, 0.65);" alt="Akhil Dev Avatar" />
 </a>
 
 <br/><br/>
@@ -22,7 +22,7 @@
 <!-- 🧭 5-PAGE MULTI-DECK NAVIGATION SYSTEM -->
 ### 📑 EXPLORE THE 5-PAGE COMMAND DOSSIER
 
-[![Deck 01: Mission Control](https://img.shields.io/badge/01%20%7C%20Mission%20Control-Samurai%20Codex-ff7a00?style=for-the-badge&logo=compass&logoColor=white)](./docs/01_MISSION_CONTROL.md)
+[![Deck 01: Mission Control](https://img.shields.io/badge/01%20%7C%20Mission%20Control-Engineering%20Codex-ff7a00?style=for-the-badge&logo=compass&logoColor=white)](./docs/01_MISSION_CONTROL.md)
 [![Deck 02: Neural Systems](https://img.shields.io/badge/02%20%7C%20Neural%20Systems-Agents%20%26%20Vision-00f0ff?style=for-the-badge&logo=openai&logoColor=black)](./docs/02_NEURAL_SYSTEMS.md)
 [![Deck 03: Case Studies](https://img.shields.io/badge/03%20%7C%20Case%20Studies-Flagship%20Projects-ff4b4b?style=for-the-badge&logo=githubactions&logoColor=white)](./docs/03_PROJECT_CASE_STUDIES.md)
 <br/>
@@ -102,6 +102,6 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff7a00,50:181818,100:060913&height=120&section=footer" width="100%" alt="Footer Wave" />
   <p>
-    <sub>⚔️ Engineered with mathematical precision by <b>Akhil Dev</b>. The AI Samurai.</sub>
+    <sub>🚀 Engineered with mathematical precision by <b>Akhil Dev</b>. AI Systems Architect.</sub>
   </p>
 </div>
