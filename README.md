@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- 🚀 Master Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:060913,50:0a0f1d,100:060913&height=120&section=header&text=AKHIL%20DEV%20%7C%20AI%20PRODUCT%20ARCHITECT&fontSize=32&fontColor=ff7a00&fontAlignY=45&desc=%22I%20BUILD%20WHAT%20OTHERS%20IMAGINE%22&descAlignY=70&descSize=14&descAlign=50&stroke=ff7a00&strokeWidth=1" width="100%" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:060913,50:0a0f1d,100:060913&height=120&section=header&text=AKHIL%20DEV&fontSize=38&fontColor=ff7a00&fontAlignY=45&desc=ME&descAlignY=70&descSize=16&descAlign=50&stroke=ff7a00&strokeWidth=1" width="100%" alt="Header" />
 <br/>
 
 <!-- ⚡ Continuous Keplerian Typing Headline -->
 <a href="https://github.com/Akhil-Dev-Git">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=2800&pause=1000&color=FF7A00&center=true&vCenter=true&width=750&lines=%22I+Build+What+Others+Imagine.%22;AI+Engineer+%E2%80%A2+Autonomous+Agents+%E2%80%A2+Neural+Vision;Forging+Intelligent+Products+with+Uncompromising+Precision;All+Orbital+Systems+Operational+%E2%9C%94" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=24&duration=2800&pause=1000&color=FF7A00&center=true&vCenter=true&width=750&lines=AI+Engineer+%E2%80%A2+Autonomous+Agents+%E2%80%A2+Neural+Vision;Forging+Intelligent+Products+with+Uncompromising+Precision;All+Orbital+Systems+Operational+%E2%9C%94" alt="Typing SVG" />
 </a>
 
 <br/><br/>
