@@ -2,7 +2,7 @@
 
 <!-- 📸 Akhil Dev Portrait with Positive Power Katana -->
 <a href="https://github.com/Akhil-Dev-Git">
-  <img src="./assets/akhil_katana_standing.jpg" width="380" style="max-width: 90%; border-radius: 18px; border: 1.5px solid rgba(255, 122, 0, 0.35); box-shadow: 0 10px 35px rgba(0, 0, 0, 0.85);" alt="Akhil Dev with Katana" />
+  <img src="./assets/akhil_katana_standing.png" width="380" alt="Akhil Dev with Katana" />
 </a>
 
 <br/><br/>
