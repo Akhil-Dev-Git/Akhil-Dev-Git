@@ -1,12 +1,5 @@
 <div align="center">
 
-<!-- 📸 Akhil Dev Portrait with Positive Power Katana -->
-<a href="https://github.com/Akhil-Dev-Git">
-  <img src="./assets/akhil_katana_centered.png" width="100%" alt="Akhil Dev with Katana" />
-</a>
-
-<br/><br/>
-
 <!-- 🚀 Master Header Banner -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:161b22,100:0d1117&height=120&section=header&text=AKHIL%20DEV&fontSize=38&fontColor=ff7a00&fontAlignY=45&desc=AI%20PRODUCT%20ARCHITECT%20%E2%80%A2%20NEURAL%20SYSTEMS&descAlignY=70&descSize=16&descAlign=50&stroke=ff7a00&strokeWidth=1" width="100%" alt="Header" />
 <br/>
