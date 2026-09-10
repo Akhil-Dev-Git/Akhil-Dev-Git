@@ -2,7 +2,13 @@
 
 <!-- 🚀 Master Header Banner -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:060913,50:0a0f1d,100:060913&height=120&section=header&text=AKHIL%20DEV&fontSize=38&fontColor=ff7a00&fontAlignY=45&desc=ME&descAlignY=70&descSize=16&descAlign=50&stroke=ff7a00&strokeWidth=1" width="100%" alt="Header" />
-<br/>
+<br/><br/>
+
+<!-- ⚔️ Full-Size Animated Katana Speed Strike Portrait -->
+<a href="https://github.com/Akhil-Dev-Git">
+  <img src="./assets/animated_katana_portrait.svg" width="580" style="max-width: 95%; border-radius: 24px; box-shadow: 0 15px 50px rgba(0, 0, 0, 0.9);" alt="Akhil Dev - Animated Katana Portrait" />
+</a>
+<br/><br/>
 
 <!-- ⚡ Continuous Keplerian Typing Headline -->
 <a href="https://github.com/Akhil-Dev-Git">

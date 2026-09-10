@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1024" width="100%" height="100%">
+  <defs>
+    <!-- Laser Slash Gradients -->
+    <linearGradient id="blade-laser" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="35%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="65%" stop-color="#FF7A00" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FF5500" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="blade-glow-orange" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3300" stop-opacity="0" />
+      <stop offset="45%" stop-color="#FF7A00" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FFF275" stop-opacity="1" />
+      <stop offset="55%" stop-color="#FF7A00" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FF9E00" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Intense Bloom Filter -->
+    <filter id="slash-bloom" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur1" />
+      <feGaussianBlur stdDeviation="18" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Clip Path for Inner Rounded Frame -->
+    <clipPath id="portrait-frame">
+      <rect x="0" y="0" width="768" height="1024" rx="28" />
+    </clipPath>
+  </defs>
+
+  <style>
+    /* Continuous Katana Speed Slash Animations */
+    @keyframes katana-strike-1 {
+      0% {
+        transform: translate(-900px, -700px) rotate(42deg);
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      22% {
+        transform: translate(900px, 700px) rotate(42deg);
+        opacity: 0.95;
+      }
+      26% {
+        transform: translate(1100px, 900px) rotate(42deg);
+        opacity: 0;
+      }
+      100% {
+        transform: translate(1100px, 900px) rotate(42deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes katana-strike-2 {
+      0%, 35% {
+        transform: translate(900px, -600px) rotate(-38deg);
+        opacity: 0;
+      }
+      45% {
+        opacity: 1;
+      }
+      56% {
+        transform: translate(-900px, 700px) rotate(-38deg);
+        opacity: 0.9;
+      }
+      60% {
+        transform: translate(-1100px, 900px) rotate(-38deg);
+        opacity: 0;
+      }
+      100% {
+        transform: translate(-1100px, 900px) rotate(-38deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes horizontal-sheathe {
+      0%, 65% {
+        transform: translate(-900px, 0px);
+        opacity: 0;
+      }
+      73% {
+        opacity: 1;
+      }
+      84% {
+        transform: translate(900px, 0px);
+        opacity: 0.85;
+      }
+      88% {
+        transform: translate(1100px, 0px);
+        opacity: 0;
+      }
+      100% {
+        transform: translate(1100px, 0px);
+        opacity: 0;
+      }
+    }
+
+    @keyframes ambient-glow {
+      0%, 100% {
+        stroke-opacity: 0.4;
+        filter: drop-shadow(0 0 15px rgba(255, 122, 0, 0.4));
+      }
+      50% {
+        stroke-opacity: 0.95;
+        filter: drop-shadow(0 0 35px rgba(0, 240, 255, 0.7));
+      }
+    }
+
+    .slash-one {
+      animation: katana-strike-1 4.2s cubic-bezier(0.15, 0.85, 0.35, 1) infinite;
+    }
+    .slash-two {
+      animation: katana-strike-2 4.2s cubic-bezier(0.15, 0.85, 0.35, 1) infinite;
+    }
+    .slash-three {
+      animation: horizontal-sheathe 4.2s cubic-bezier(0.15, 0.85, 0.35, 1) infinite;
+    }
+    .outer-border {
+      animation: ambient-glow 3.5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Container with Rounded Border Clip -->
+  <g clip-path="url(#portrait-frame)">
+    <!-- Full-Size High-Resolution Portrait Image -->
+    <image href="akhil_portrait.jpg" width="768" height="1024" preserveAspectRatio="xMidYMid slice" />
+
+    <!-- Dark Vignette Depth Overlay at Bottom & Borders -->
+    <rect x="0" y="700" width="768" height="324" fill="url(#blade-glow-orange)" opacity="0.1" />
+
+    <!-- ================= KATANA SLASH EFFECT 1 (Diagonal Left to Right) ================= -->
+    <g class="slash-one" transform-origin="384px 512px">
+      <!-- Wide Glowing Arc Shadow -->
+      <polygon points="-600,-40 600,-25 600,25 -600,40" fill="url(#blade-laser)" opacity="0.4" filter="url(#slash-bloom)" />
+      <!-- Razor-Sharp Core Blade Laser Line -->
+      <line x1="-700" y1="0" x2="700" y2="0" stroke="#FFFFFF" stroke-width="4.5" filter="url(#slash-bloom)" />
+      <line x1="-500" y1="0" x2="500" y2="0" stroke="#00F0FF" stroke-width="9" opacity="0.8" filter="url(#slash-bloom)" />
+      <!-- Spark Particles -->
+      <circle cx="-100" cy="-6" r="3" fill="#FFF" />
+      <circle cx="50" cy="8" r="4" fill="#FF7A00" />
+      <circle cx="220" cy="-4" r="2.5" fill="#00F0FF" />
+    </g>
+
+    <!-- ================= KATANA SLASH EFFECT 2 (Counter Slash Right to Left) ================= -->
+    <g class="slash-two" transform-origin="384px 512px">
+      <!-- Fiery Orange Blade Flare -->
+      <polygon points="-600,-30 600,-15 600,15 -600,30" fill="url(#blade-glow-orange)" opacity="0.5" filter="url(#slash-bloom)" />
+      <!-- Razor White Hot Core -->
+      <line x1="-700" y1="0" x2="700" y2="0" stroke="#FFFFFF" stroke-width="4" filter="url(#slash-bloom)" />
+      <line x1="-550" y1="0" x2="550" y2="0" stroke="#FF7A00" stroke-width="8" opacity="0.85" filter="url(#slash-bloom)" />
+      <!-- Sparks -->
+      <circle cx="-150" cy="5" r="3.5" fill="#FFD166" />
+      <circle cx="120" cy="-7" r="3" fill="#FFF" />
+    </g>
+
+    <!-- ================= KATANA SLASH EFFECT 3 (Rapid Horizontal Draw Slash) ================= -->
+    <g class="slash-three" transform="translate(0, 520)">
+      <line x1="-800" y1="0" x2="800" y2="0" stroke="#FFFFFF" stroke-width="3" filter="url(#slash-bloom)" />
+      <line x1="-600" y1="0" x2="600" y2="0" stroke="#00F0FF" stroke-width="7" opacity="0.75" filter="url(#slash-bloom)" />
+    </g>
+  </g>
+
+  <!-- Glowing Outer Neon Border Frame -->
+  <rect x="3" y="3" width="762" height="1018" rx="26" fill="none" stroke="#FF7A00" stroke-width="3" class="outer-border" />
+  
+  <!-- Cyber Corner Reticles -->
+  <g stroke="#00F0FF" stroke-width="2.5" fill="none">
+    <path d="M 20 50 L 20 20 L 50 20" />
+    <path d="M 748 50 L 748 20 L 718 20" />
+    <path d="M 20 974 L 20 1004 L 50 1004" />
+    <path d="M 748 974 L 748 1004 L 718 1004" />
+  </g>
+</svg>
