@@ -2,7 +2,7 @@
 
 <!-- 📸 Akhil Dev Portrait with Katana -->
 <a href="https://github.com/Akhil-Dev-Git">
-  <img src="./assets/akhil_katana_portrait.png" width="380" alt="Akhil Dev with Katana" />
+  <img src="./assets/akhil_katana_portrait_clean.png" width="380" alt="Akhil Dev with Katana" />
 </a>
 
 <br/><br/>
