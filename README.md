@@ -76,16 +76,18 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Akhil-Dev-Git&show_icons=true&theme=tokyonight&hide_border=false&bg_color=060913&border_color=ff7a00&title_color=ff7a00&icon_color=00f0ff&text_color=cbd5e1&border_radius=12" height="170" alt="Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akhil-Dev-Git&layout=compact&theme=tokyonight&hide_border=false&bg_color=060913&border_color=ff7a00&title_color=ff7a00&text_color=cbd5e1&border_radius=12" height="170" alt="Languages" />
+<img src="./assets/stats_card.svg" width="100%" alt="Akhil Dev Metrics & Languages" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akhil-Dev-Git&bg_color=060913&color=ff7a00&line=ff7a00&point=00f0ff&area=true&area_color=ff7a00&hide_border=false&border_color=ff7a00&border_radius=12" width="100%" alt="Activity Wave Graph" />
+<img src="./assets/activity_graph.svg" width="100%" alt="Velocity & Deployment Pulse" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Akhil-Dev-Git&theme=tokyonight&hide_border=false&border=ff7a00&background=060913&ring=ff7a00&fire=00f0ff&currStreakLabel=ff7a00&border_radius=12" alt="Streak" />
+<!-- Real-time Status Badges -->
+[![Verified Architect](https://img.shields.io/badge/Architecture-AI%20Agents%20%26%20Vision-00F0FF?style=for-the-badge&logo=cpu&logoColor=black)](https://github.com/Akhil-Dev-Git)
+[![Repositories](https://img.shields.io/badge/Repositories-15%20Public%20Builds-FF7A00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akhil-Dev-Git?tab=repositories)
+[![Deployment Speed](https://img.shields.io/badge/Velocity-Continuous%20Deployment-34D399?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/Akhil-Dev-Git)
 
 </div>
 
