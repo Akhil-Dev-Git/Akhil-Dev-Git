@@ -1,12 +1,5 @@
 <div align="center">
 
-<!-- 📸 Akhil Dev Portrait with Positive Power Katana -->
-<a href="https://github.com/Akhil-Dev-Git">
-  <img src="./assets/akhil_katana_standing.jpg" width="380" style="max-width: 90%; border-radius: 18px; border: 1.5px solid rgba(255, 122, 0, 0.35); box-shadow: 0 10px 35px rgba(0, 0, 0, 0.85);" alt="Akhil Dev with Katana" />
-</a>
-
-<br/><br/>
-
 <!-- 🚀 Master Header Banner -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:060913,50:0a0f1d,100:060913&height=120&section=header&text=AKHIL%20DEV&fontSize=38&fontColor=ff7a00&fontAlignY=45&desc=ME&descAlignY=70&descSize=16&descAlign=50&stroke=ff7a00&strokeWidth=1" width="100%" alt="Header" />
 <br/>
