@@ -33,6 +33,8 @@ I partner with visionary founders, research teams, and engineering organizations
 # ENCRYPTED TRANSMISSION CHANNELS
 # ================================================================
 NAME         : Akhil Dev
+EMAIL        : dev897330@gmail.com
+LINKEDIN     : https://www.linkedin.com/in/adp-groups/
 LOCATION     : India (Open to Global Remote / Relocation for High-Impact Roles)
 TIMEZONE     : Indian Standard Time (UTC +5:30) • Flexible Cross-Timezone Alignment
 AVAILABILITY : 🟢 OPEN FOR FULL-TIME ROLES & VENTURE COLLABORATIONS
@@ -43,7 +45,8 @@ AVAILABILITY : 🟢 OPEN FOR FULL-TIME ROLES & VENTURE COLLABORATIONS
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit%20Site-FF7A00?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Akhil-Dev-Git/Akhil-Dev-Portfolio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20Professionally-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20Professionally-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adp-groups/)
+[![Email](https://img.shields.io/badge/Email-Direct%20Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev897330@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Explore%20Repositories-181818?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akhil-Dev-Git)
 
 </div>

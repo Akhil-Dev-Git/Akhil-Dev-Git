@@ -33,7 +33,8 @@
 <!-- 🪐 Quick Telemetry & Status Badges -->
 [![System](https://img.shields.io/badge/System-ORBITAL%20ONLINE-00F0FF?style=for-the-badge&logo=satellite&logoColor=black)](https://github.com/Akhil-Dev-Git)
 [![Portfolio](https://img.shields.io/badge/Console-Visit%20Portfolio-FF7A00?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Akhil-Dev-Git/Akhil-Dev-Portfolio)
-[![LinkedIn](https://img.shields.io/badge/Network-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adp-groups/)
+[![Email](https://img.shields.io/badge/Email-Direct%20Transmission-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev897330@gmail.com)
 [![Telemetry](https://komarev.com/ghpvc/?username=Akhil-Dev-Git&style=for-the-badge&color=FF7A00)](https://github.com/Akhil-Dev-Git)
 
 <br/>
@@ -88,6 +89,15 @@
 <br/><br/>
 
 <img src="./assets/activity_graph.svg" width="100%" alt="Velocity & Deployment Pulse" />
+
+<br/><br/>
+
+<!-- 🐍 Contribution Snake Animation (Neon Dark Mode Synchronized) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akhil-Dev-Git/Akhil-Dev-Git/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akhil-Dev-Git/Akhil-Dev-Git/output/github-contribution-grid-snake.svg" />
+  <img alt="Akhil Dev Contribution Velocity Snake" src="https://raw.githubusercontent.com/Akhil-Dev-Git/Akhil-Dev-Git/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
 
 <br/><br/>
 
