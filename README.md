@@ -1,11 +1,8 @@
 <div align="center">
 
-<!-- 📸 Akhil Dev 3D Pop-Out Katana Animation -->
+<!-- 📸 Akhil Dev Portrait with Katana -->
 <a href="https://github.com/Akhil-Dev-Git">
-  <picture>
-    <source srcset="./assets/akhil_katana_3d_popout.webp" type="image/webp" />
-    <img src="./assets/akhil_katana_3d_popout.gif" width="380" alt="Akhil Dev with 3D Katana" />
-  </picture>
+  <img src="./assets/akhil_katana_portrait_clean.png" width="380" alt="Akhil Dev with Katana" />
 </a>
 
 <br/><br/>
